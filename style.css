@@ -1,0 +1,81 @@
+body{
+    background-color:#7E99A3;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Indie Flower", cursive;
+  text-shadow: 5px 0 #4C585B;
+  font-size: clamp(2rem, 17vw, 5rem);
+  color: #F4EDD3; 
+  font-size: 4rem; 
+}
+
+.container{
+  display: flex;
+  flex-direction: column; 
+  margin: auto;
+  text-align: center;
+}
+
+#Auswählen{
+    background-color: #4C585B;
+    color: #F4EDD3; 
+    border:none; 
+    border-radius: 10px;
+    font-size: 20px; 
+    margin:20px;
+    box-shadow: 2px 2px 10px; 
+}
+
+p{
+    text-align: center;
+    display: block;  
+    font-size: 2rem; 
+    font-family: "Indie Flower", cursive;
+    margin: 5px; 
+    color:#F4EDD3;
+}
+
+.btn-primary{
+    background-color: #4C585B;
+    color: #F4EDD3; 
+    border:none; 
+    border-radius: 10px;
+    font-size: 20px; 
+    margin:20px;
+    box-shadow: 2px 2px 10px; 
+}
+
+#exampleFormControlTextarea1{
+    background-color: #F4EDD3;
+    color: #4C585B; 
+    font-size: 18px; 
+
+}
+
+.meme-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.meme-image {
+    width: 60%;          
+    height: auto;
+    display: block;
+    margin: 0 auto;        
+}
+
+.meme-text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 40px;
+    font-family: 'Impact', sans-serif;
+    text-shadow: 2px 2px 4px #000;
+    padding: 0 10px;
+    text-align: center;
+}

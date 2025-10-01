@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memegenerator</title>
+     <link rel="stylesheet" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="Überschrift">
+            <h1 class="h1">Meme&shy;generator</h1>
+        </div>
+
+
+        <div class="Eingabereich">
+           
+        <select class="form-select" id= "Auswählen" aria-label="Default select example">
+            <option selected>Stimmung auswählen</option>
+            <option value="1">Witzig</option>
+            <option value="2">Genervt</option>
+            <option value="3">Traurig/Verärgert</option>
+        </select>
+
+        <p>Text eingeben:</p>
+        <div class="Textbereich">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="btn">
+                <button type="submit" class="btn btn-primary mb-3">Generieren</button>
+            </div>
+        </div>
+    
+    <div id="meme-output" class="meme-output"></div>
+
+
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
