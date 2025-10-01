@@ -61,7 +61,7 @@ p{
 }
 
 .meme-image {
-    width: 40%;          
+    width: 60%;          
     height: auto;
     display: block;
     margin: 0 auto;        
@@ -86,4 +86,5 @@ p{
         font-size: 16px;
     }
 }
+
 
